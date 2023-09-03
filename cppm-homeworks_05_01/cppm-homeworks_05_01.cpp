@@ -4,7 +4,7 @@
 #include <iostream>
 class Figure {
 private:    
-    int side_numb = 0;
+    int side_numb;
 protected:
     std::string name = "Фигура";
     Figure(int side_numb) {
